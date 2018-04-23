@@ -28165,3 +28165,11 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
         display: block;
     }
 }
+@media screen and (max-width : 450px){
+    .opOn{
+        opacity: 0.6;
+    }
+    .opOn:hover{
+        opacity: 1;
+    }
+}
