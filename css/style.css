@@ -2874,7 +2874,8 @@ dl {
 }
 
 .portfolio-item {
-  will-change: transform;
+    background-color: black;     
+    will-change: transform;
 }
 
 .portfolio-item .caption {
@@ -28166,10 +28167,32 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
     }
 }
 @media screen and (max-width : 450px){
-    .opOn{
-        opacity: 0.6;
+    .elem{
+        opacity: 0.4;
+        transition-duration: 1s;
     }
-    .opOn:hover{
+    .elem1{
+        opacity: 0.4;
+        transition-duration: 1s;
+    }
+    .elem2{
+        opacity: 0.4;
+        transition-duration: 1s;
+    }
+    .elem3{
+        opacity: 0.4;
+        transition-duration: 1s;
+    }
+    .elem4{
+        opacity: 0.4;
+        transition-duration: 1s;
+    }
+    .elem5{
+        opacity: 0.4;
+        transition-duration: 1s;
+    }
+    .animate-opacity{
         opacity: 1;
+        transition-duration: 1s;
     }
 }
