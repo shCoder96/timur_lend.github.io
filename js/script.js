@@ -2102,7 +2102,7 @@ $(window).on('scroll', function(){
     var elem1 = $('.elem1'),
     posTop1 = elem1.offset().top;
 $(window).on('scroll', function(){
-    if($(this).scrollTop() >= posTop1 -80) {
+    if($(this).scrollTop() >= posTop1 -120) {
         elem1.addClass('animate-opacity');
     } else {
         elem1.removeClass('animate-opacity');
@@ -2111,7 +2111,7 @@ $(window).on('scroll', function(){
     var elem2 = $('.elem2'),
     posTop2 = elem2.offset().top;
 $(window).on('scroll', function(){
-    if($(this).scrollTop() >= posTop2 - 40) {
+    if($(this).scrollTop() >= posTop2 - 60) {
         elem2.addClass('animate-opacity');
     } else {
         elem2.removeClass('animate-opacity');
@@ -2120,7 +2120,7 @@ $(window).on('scroll', function(){
     var elem3 = $('.elem3'),
     posTop3 = elem3.offset().top;
 $(window).on('scroll', function(){
-    if($(this).scrollTop() >= posTop3 - 20) {
+    if($(this).scrollTop() >= posTop3 - 120) {
         elem3.addClass('animate-opacity');
     } else {
         elem3.removeClass('animate-opacity');
@@ -2129,7 +2129,7 @@ $(window).on('scroll', function(){
     var elem4 = $('.elem4'),
     posTop4 = elem4.offset().top;
 $(window).on('scroll', function(){
-    if($(this).scrollTop() >= posTop4 - 80) {
+    if($(this).scrollTop() >= posTop4 - 120) {
         elem4.addClass('animate-opacity');
     } else {
         elem4.removeClass('animate-opacity');
@@ -2138,7 +2138,7 @@ $(window).on('scroll', function(){
     var elem5 = $('.elem5'),
     posTop5 = elem5.offset().top;
 $(window).on('scroll', function(){
-    if($(this).scrollTop() >= posTop5 - 60) {
+    if($(this).scrollTop() >= posTop5 - 120) {
         elem5.addClass('animate-opacity');
     } else {
         elem5.removeClass('animate-opacity');
