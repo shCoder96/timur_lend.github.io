@@ -74,9 +74,11 @@ html *:first-child {
   margin-top: 0;
 }
 
+/*
 html *:last-child {
   margin-bottom: 0;
 }
+*/
 
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -28158,6 +28160,11 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 .mobKar{
     display: none;
 }
+.mapStl{
+    width: 100%;
+    background-color: #f4f3ed;
+    margin-bottom: 40px;
+}
 @media screen and (max-width: 450px){
     .comp{
         display: none;
@@ -28195,4 +28202,9 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
         opacity: 1;
         transition-duration: 1s;
     }
+}
+.contakt {
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 20px;
 }
