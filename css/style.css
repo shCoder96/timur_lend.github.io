@@ -2810,7 +2810,6 @@ dl {
   padding: 20px;
   transition: .33s all ease-in-out;
   pointer-events: none;
-  background: rgba(26, 35, 34, 0.56);
   will-change: transform;
 }
 
@@ -2881,7 +2880,6 @@ dl {
 .portfolio-item .caption {
   flex-direction: row;
   will-change: opacity;
-  background: rgba(59, 85, 102, 0.42);
 }
 
 .portfolio-item .caption::before, .portfolio-item .caption::after {
