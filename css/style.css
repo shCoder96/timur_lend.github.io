@@ -28152,3 +28152,18 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 .textLeft{
     margin-left: 160px;
 }
+
+.comp {
+    display: block;
+}
+.mobKar{
+    display: none;
+}
+@media screen and (max-width: 450px){
+    .comp{
+        display: none;
+    }
+    .mobKar{
+        display: block;
+    }
+}
