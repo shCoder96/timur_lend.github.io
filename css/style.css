@@ -28208,10 +28208,8 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
     padding-left: 25px;
     padding-bottom: 20px;
 }
-.leftMarPriceWeb{
-    padding-left: 20px;
-}
-@media screen and (min-width: 360px){
+
+@media screen and (min-width: 370px){
     .leftMarPrice{
     margin-left: 20px;
 }   
