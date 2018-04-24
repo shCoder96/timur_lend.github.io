@@ -28211,3 +28211,8 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 .leftMarPrice{
     padding-left: 20px;
 }
+@media screen and (max-width: 450px){
+    .leftMarPrice{
+    margin-left: 20px;
+}   
+}
