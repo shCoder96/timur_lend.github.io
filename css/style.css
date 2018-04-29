@@ -17478,7 +17478,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 
 /* Dots */
 .slick-slider {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .slick-dots {
@@ -28212,5 +28212,10 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 @media screen and (min-width: 370px){
     .leftMarPrice{
     margin-left: 20px;
-}   
+    }   
+}
+@media screen and (max-width: 973px){    
+    .slick-slider{
+         margin-bottom: 0px;   
+    }
 }
