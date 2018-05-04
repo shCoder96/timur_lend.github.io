@@ -28247,3 +28247,6 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
         margin-left: 10%
     }
 }
+.phoneCont {
+    font-size: 22px;
+}
