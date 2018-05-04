@@ -2436,6 +2436,9 @@ dl {
   font-weight: 700;
   text-transform: uppercase;
   color: #151515;
+    margin-left: 30px;
+    padding-top: 21px
+        
 }
 
 * + .post-minimal {
@@ -19703,7 +19706,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .fa-angle-up:before {
-  content: "\f106";
+  content: "^";
 }
 
 .fa-angle-down:before {
@@ -28152,6 +28155,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
     width: 100%;
     background-color: #f4f3ed;
     margin-bottom: 40px;
+    overflow: hidden
 }
 @media screen and (max-width: 450px){
     .comp{
@@ -28233,4 +28237,13 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
     right: 15px;
     top: 15px;
     z-index: 9999;
+}
+
+.centerCont {
+    margin-left: 30px;
+}
+@media screen and (max-width: 450px){
+    .centerCont{
+        margin-left: 10%
+    }
 }
