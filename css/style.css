@@ -28222,7 +28222,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .right-side {
-    position: fixed;
+    position: relative;
     top: 0px;
     right: 0px;
     z-index: 5;
