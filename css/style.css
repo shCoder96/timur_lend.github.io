@@ -28258,3 +28258,11 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
     height: 45px;
     width: 45px;
 }
+.noMarr {
+    margin-left: 0px;
+}
+@media screen and (max-width: 450px){
+    .noMarr{
+        margin-left:40px;
+    }
+}
