@@ -28266,3 +28266,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
         margin-left:40px;
     }
 }
+
+.hSecondSlide {
+    font-size: 40px;
+}
